@@ -1,0 +1,13 @@
+table{
+		font-family: verdana;
+		border: 1px solid black;
+		border-collapse: collapse;
+		width: 70%;
+		float: center;
+	}
+	
+	td, th {
+	  text-align: left;
+	  padding: 10px;
+	  background-color: white;
+	}

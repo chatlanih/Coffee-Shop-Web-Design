@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Verdana-Pro;
+	background: #f1f1f1;
+}
+
+/* Header */
+.header {
+	padding: 30px;
+	text-align: center;
+	background: #b78338;
+}
+/* Header Title */
+.header h1 {
+	font-size: 50px;
+}
+
+/* Middle Column */
+.column {
+	float: center;
+	width: 100%;
+}
+
+/* Card Effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+/* Newsletter */
+.newsletter {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: white;
+	font-style: Verdana;
+	text-align: center;
+	width: 100%;
+	color: black;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+	background-color: #2F1812;
+	color: white;
+}
+
+/* Footer Navigation Links */
+.footer h2 {
+	float: left;
+	padding-left: 25px;
+	text-decoration: none;
+	color: white;
+}
+.footer a {
+	text-decoration: none;
+	color: white;
+}
